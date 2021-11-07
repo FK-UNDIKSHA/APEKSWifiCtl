@@ -1,0 +1,9 @@
+#! /bin/bash
+
+cd /home/pi/Downloads/Autohotspot
+
+echo "[INFO] Root is Needed, Please Insert Your Password (If Asked)"
+echo "[DEBUG] Running Apps..."
+sleep 2
+
+sudo ./autohotspot-setup.sh
